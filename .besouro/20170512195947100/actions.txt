@@ -157,3 +157,7 @@ UnitTestCaseAction 1494615477659 TestPlanetExplorer.java OK
 UnitTestSessionAction 1494615477661 TestPlanetExplorer.java OK
 RefactoringAction 1494615542696 PlanetExplorer.java ADD String getObstacles(String) METHOD
 EditAction 1494615544090 PlanetExplorer.java 4185 5 15 0
+CompilationAction 1494615547295 PlanetExplorer.java
+RefactoringAction 1494615577061 PlanetExplorer.java ADD int FIELD
+CompilationAction 1494615579213 PlanetExplorer.java
+EditAction 1494615596183 PlanetExplorer.java 4208 5 15 0

@@ -9,6 +9,7 @@ public class PlanetExplorer {
 	public String obstacles;
 	public int[] explorer = {0,0};
 	public char facing = 'N';
+	int[] coordinatesOfObstacles;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		
@@ -88,13 +89,13 @@ public class PlanetExplorer {
 		return explorer[0]+", "+explorer[1]+", "+ facing;
 	}
 	
-	public String getObstacles(String obstacles){
+	public void getObstacles(String obstacles){
 		
 		String helpReplace = obstacles.replace("(","");
 		String helpReplace1 = helpReplace.replace(",","");
 		String helpReplace2 = helpReplace1.replace(")","");
 		char[] replacer = helpReplace2.toCharArray();
-		int[] coordinatesOfObstacles=new int[replacer.length];
+		coordinatesOfObstacles=new int[replacer.length];
 		for(int i=0;i<replacer.length;i++){
 			coordinatesOfObstacles[i] = Integer.parseInt(String.valueOf(replacer[i]));
 			

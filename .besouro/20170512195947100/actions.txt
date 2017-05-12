@@ -65,3 +65,9 @@ EditAction 1494613529583 PlanetExplorer.java 2761 3 8 0
 EditAction 1494613674428 PlanetExplorer.java 3111 3 8 0
 EditAction 1494613752508 PlanetExplorer.java 3148 3 8 0
 EditAction 1494613759252 TestPlanetExplorer.java 419 0 0 0
+RefactoringAction 1494613774110 TestPlanetExplorer.java ADD void tes FIELD
+RefactoringAction 1494613775134 TestPlanetExplorer.java RENAME tes=>void test_ FIELD
+RefactoringAction 1494613779658 TestPlanetExplorer.java RENAME test_=>void test_initialM FIELD
+RefactoringAction 1494613782179 TestPlanetExplorer.java RENAME test_initialM=>void test_initialMoveForward FIELD
+RefactoringAction 1494613783704 TestPlanetExplorer.java RENAME test_initialMoveForward=>void test_initialMoveForward() METHOD
+EditAction 1494613864965 TestPlanetExplorer.java 592 1 3 0

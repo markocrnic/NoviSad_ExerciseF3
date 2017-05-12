@@ -153,3 +153,7 @@ RefactoringAction 1494615317672 TestPlanetExplorer.java RENAME test_ChangingGrid
 RefactoringAction 1494615321741 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100()/2=>void test_ChangingGridSideIfGrideXis0() METHOD
 EditAction 1494615354442 TestPlanetExplorer.java 2378 8 27 8
 EditAction 1494615473212 TestPlanetExplorer.java 2371 8 28 8
+UnitTestCaseAction 1494615477659 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615477661 TestPlanetExplorer.java OK
+RefactoringAction 1494615542696 PlanetExplorer.java ADD String getObstacles(String) METHOD
+EditAction 1494615544090 PlanetExplorer.java 4185 5 15 0

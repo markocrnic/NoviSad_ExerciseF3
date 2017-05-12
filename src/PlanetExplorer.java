@@ -88,7 +88,7 @@ public class PlanetExplorer {
 		return explorer[0]+", "+explorer[1]+", "+ facing;
 	}
 	
-	/*public String getObstacles(String obstacles){
+	public String getObstacles(String obstacles){
 		
 		String helpReplace = obstacles.replace("(","");
 		String helpReplace1 = helpReplace.replace(",","");
@@ -99,7 +99,7 @@ public class PlanetExplorer {
 			coordinatesOfObstacles[i] = Integer.parseInt(String.valueOf(replacer[i]));
 			
 		}
-	}*/
+	}
 	
 	public char changeFacing(char changeDirection){
 		if(changeDirection == 'r'){

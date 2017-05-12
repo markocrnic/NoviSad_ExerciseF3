@@ -115,6 +115,11 @@ public class PlanetExplorer {
 				explorer[1] = 0;
 			else if(explorer[1] == 0)
 				explorer[1] = 100;
+		}else if((command == 'f' && facing == 'W') || (command == 'f' && facing =='E')){
+			if(explorer[0] == 100)
+				explorer[0] = 0;
+			else if(explorer[0] == 0)
+				explorer[0] = 100;
 		}
 	}
 }

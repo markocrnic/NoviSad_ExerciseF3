@@ -44,3 +44,19 @@ UnitTestSessionAction 1494612929403 TestPlanetExplorer.java FAIL
 EditAction 1494612963132 TestPlanetExplorer.java 413 1 0 0
 CompilationAction 1494612967149 TestPlanetExplorer.java
 EditAction 1494613002502 PlanetExplorer.java 1811 3 10 0
+CompilationAction 1494613005911 PlanetExplorer.java
+CompilationAction 1494613005912 TestPlanetExplorer.java
+RefactoringAction 1494613014278 PlanetExplorer.java REMOVE getObstacles(String) METHOD
+RefactoringAction 1494613029135 TestPlanetExplorer.java REMOVE test_gettingCoordinatesIntoArrayOfIntegers() METHOD
+RefactoringAction 1494613093440 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494613115153 PlanetExplorer.java ADD char facing FIELD
+CompilationAction 1494613120321 PlanetExplorer.java
+CompilationAction 1494613120673 TestPlanetExplorer.java
+RefactoringAction 1494613221753 PlanetExplorer.java ADD char get FIELD
+RefactoringAction 1494613223847 PlanetExplorer.java REMOVE get FIELD
+RefactoringAction 1494613226379 PlanetExplorer.java ADD char changeFacing FIELD
+RefactoringAction 1494613227920 PlanetExplorer.java RENAME changeFacing=>char changeFacing() METHOD
+RefactoringAction 1494613233483 PlanetExplorer.java RENAME changeFacing()=>char changeFacing(String) METHOD
+RefactoringAction 1494613239023 PlanetExplorer.java RENAME changeFacing(String)=>char changeFacing() METHOD
+RefactoringAction 1494613255627 PlanetExplorer.java RENAME changeFacing()=>char changeFacing(char) METHOD
+EditAction 1494613384997 PlanetExplorer.java 2688 3 8 0

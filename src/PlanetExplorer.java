@@ -7,6 +7,8 @@ public class PlanetExplorer {
 	public int x;
 	public int y;
 	public String obstacles;
+	public int[] explorer = {0,0};
+	public char facing = 'N';
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		
@@ -26,6 +28,21 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
+		char[] commandArray = command.toCharArray();
+		for(int i = 0; i<commandArray.length; i++){
+			if(commandArray[i] == 'f'){
+				
+			}else if(commandArray[i] == 'b'){
+				
+			}
+			else if(commandArray[i] == 'l'){
+				
+			}
+			else if(commandArray[i] == 'r'){
+	
+			}
+		}
+		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -39,7 +56,7 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public String getObstacles(String obstacles){
+	/*public String getObstacles(String obstacles){
 		
 		String helpReplace = obstacles.replace("(","");
 		String helpReplace1 = helpReplace.replace(",","");
@@ -50,5 +67,29 @@ public class PlanetExplorer {
 			coordinatesOfObstacles[i] = Integer.parseInt(String.valueOf(replacer[i]));
 			
 		}
+	}*/
+	
+	public char changeFacing(char changeDirection){
+		if(changeDirection == 'r'){
+			if(facing == 'N')
+				return facing = 'W';
+			else if(facing == 'W')
+				return facing = 'S';
+			else if(facing == 'S')
+				return facing = 'E';
+			else if(facing == 'E')
+				return facing = 'N';
+		}
+		else if(changeDirection == 'l'){
+			if(facing == 'N')
+				return facing = 'E';
+			else if(facing == 'E')
+				return facing = 'S';
+			else if(facing == 'S')
+				return facing = 'W';
+			else if(facing == 'W')
+				return facing = 'N';
+		}
+		return facing;
 	}
 }

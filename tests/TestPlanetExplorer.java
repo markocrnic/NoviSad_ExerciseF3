@@ -44,7 +44,7 @@ public class TestPlanetExplorer {
 	public void test_initialMoveBackwardFacingEast(){
 		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
 		//ex.executeCommand("f");
-		String expected = "0, 1, E";
+		String expected = "1, 0, E";
 		assertEquals(expected, ex.executeCommand("lb"));
 		
 	}

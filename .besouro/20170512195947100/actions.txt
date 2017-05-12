@@ -87,3 +87,6 @@ RefactoringAction 1494613960104 TestPlanetExplorer.java RENAME test_initialMoveF
 RefactoringAction 1494614010353 TestPlanetExplorer.java RENAME test_initialMoveBackward()=>void test_initialMoveBackwardFrom() METHOD
 RefactoringAction 1494614015400 TestPlanetExplorer.java RENAME test_initialMoveBackwardFrom()=>void test_initialMoveBackwardFromSomePoint() METHOD
 EditAction 1494614058709 TestPlanetExplorer.java 1369 4 12 4
+UnitTestCaseAction 1494614063448 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614063449 TestPlanetExplorer.java FAIL
+EditAction 1494614082386 TestPlanetExplorer.java 1369 4 12 4

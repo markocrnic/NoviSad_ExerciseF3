@@ -166,3 +166,6 @@ RefactoringAction 1494615639481 PlanetExplorer.java ADD void createObstacle FIEL
 RefactoringAction 1494615640541 PlanetExplorer.java RENAME createObstacle=>void createObstacles FIELD
 RefactoringAction 1494615642622 PlanetExplorer.java RENAME createObstacles=>void createObstacles() METHOD
 EditAction 1494615704028 PlanetExplorer.java 4321 6 17 0
+RefactoringAction 1494616053051 PlanetExplorer.java ADD import java.awt.List IMPORT
+RefactoringAction 1494616242061 PlanetExplorer.java RENAME createObstacles()=>void checkForObstacles() METHOD
+EditAction 1494616313323 PlanetExplorer.java 4431 6 17 0

@@ -1,3 +1,4 @@
+import java.awt.List;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
@@ -99,7 +100,6 @@ public class PlanetExplorer {
 		coordinatesOfObstacles=new int[replacer.length];
 		for(int i=0;i<replacer.length;i++){
 			coordinatesOfObstacles[i] = Integer.parseInt(String.valueOf(replacer[i]));
-			
 		}
 	}
 	
@@ -157,7 +157,9 @@ public class PlanetExplorer {
 		}
 	}
 	
-	public void createObstacles(){
-		int counter = coordinatesOfObstacles.length/2;
+	public void checkForObstacles(){
+		for(int i = 0; i<coordinatesOfObstacles.length;i=i+2){
+			 int[] checking = {coordinatesOfObstacles[i],coordinatesOfObstacles[i+1]};
+		}
 	}
 }

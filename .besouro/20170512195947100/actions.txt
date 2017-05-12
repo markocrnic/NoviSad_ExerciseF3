@@ -90,3 +90,8 @@ EditAction 1494614058709 TestPlanetExplorer.java 1369 4 12 4
 UnitTestCaseAction 1494614063448 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494614063449 TestPlanetExplorer.java FAIL
 EditAction 1494614082386 TestPlanetExplorer.java 1369 4 12 4
+UnitTestCaseAction 1494614086568 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494614086570 TestPlanetExplorer.java OK
+RefactoringAction 1494614145308 PlanetExplorer.java ADD void changeGridSide() METHOD
+RefactoringAction 1494614343755 PlanetExplorer.java RENAME changeGridSide()=>void changeGridSide(char) METHOD
+EditAction 1494614480519 PlanetExplorer.java 3376 4 9 0

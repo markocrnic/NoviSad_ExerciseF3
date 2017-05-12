@@ -94,3 +94,7 @@
 1494614086579 test-addition 1 173 true
 1494614086580 test-addition 2 173 true
 1494614086581 test-addition 1 173 true
+1494615288724 test-last 1 1143 false
+1494615288725 test-last 1 1143 false
+1494615288726 test-last 1 1143 false
+1494615288727 test-last 1 1143 false

@@ -143,3 +143,12 @@ UnitTestCaseAction 1494615225720 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494615225722 TestPlanetExplorer.java FAIL
 EditAction 1494615277930 PlanetExplorer.java 4189 4 9 0
 EditAction 1494615284642 TestPlanetExplorer.java 1637 5 16 5
+UnitTestCaseAction 1494615288717 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494615288724 TestPlanetExplorer.java OK
+RefactoringAction 1494615305063 TestPlanetExplorer.java ADD void test_ChangingGridSideIfGrideYis100()/2 METHOD
+RefactoringAction 1494615305065 TestPlanetExplorer.java ADD void test_ChangingGridSideIfGrideYis100()/3 METHOD
+RefactoringAction 1494615305067 TestPlanetExplorer.java ADD void test_ChangingGridSideIfGrideYis100()/4 METHOD
+RefactoringAction 1494615312631 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100()/4=>void test_ChangingGridSideIfGrideYis0() METHOD
+RefactoringAction 1494615317672 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100()/3=>void test_ChangingGridSideIfGrideXis100() METHOD
+RefactoringAction 1494615321741 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100()/2=>void test_ChangingGridSideIfGrideXis0() METHOD
+EditAction 1494615354442 TestPlanetExplorer.java 2378 8 27 8

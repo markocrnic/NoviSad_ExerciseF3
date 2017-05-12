@@ -98,3 +98,13 @@ EditAction 1494614480519 PlanetExplorer.java 3376 4 9 0
 EditAction 1494614511380 PlanetExplorer.java 3558 4 9 0
 EditAction 1494614556617 PlanetExplorer.java 3630 4 9 0
 EditAction 1494614609729 PlanetExplorer.java 3838 4 9 0
+RefactoringAction 1494614635560 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1494614639097 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1494614643122 TestPlanetExplorer.java RENAME test_=>void test_ChangingGridSide FIELD
+RefactoringAction 1494614646163 TestPlanetExplorer.java RENAME test_ChangingGridSide=>void test_ChangingGridSideIfGride() METHOD
+RefactoringAction 1494614647203 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGride()=>void test_ChangingGridSideIfGride FIELD
+RefactoringAction 1494614648241 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGride=>void test_ChangingGridSideIfGrideY FIELD
+RefactoringAction 1494614650776 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideY=>void test_ChangingGridSideIfGrideYis FIELD
+RefactoringAction 1494614655325 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis=>void test_ChangingGridSideIfGrideYis100 FIELD
+RefactoringAction 1494614658379 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100=>void test_ChangingGridSideIfGrideYis100() METHOD
+EditAction 1494614763479 TestPlanetExplorer.java 1612 5 12 4

@@ -4,7 +4,14 @@
 // Student ID:
 
 public class PlanetExplorer {
+	public int x;
+	public int y;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
+		
+		this.x = x;
+		this.y = y;
+		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -27,5 +34,20 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+	
+	public int[] getObstacles(String obstacles){
+		
+		String helpReplace = obstacles.replace("(","");
+		String helpReplace1 = helpReplace.replace(",","");
+		String helpReplace2 = helpReplace1.replace(")","");
+		char[] replacer = helpReplace2.toCharArray();
+		int[] coordinatesOfObstacles=new int[replacer.length];
+		for(int i=0;i<replacer.length;i++){
+			coordinatesOfObstacles[i] = Integer.parseInt(String.valueOf(replacer[i]));
+		}
+		
+		
+		return 12;
 	}
 }

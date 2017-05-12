@@ -1,0 +1,11 @@
+FileOpenedAction 1494611987843 PlanetExplorer.java 1245 2 1 0
+RefactoringAction 1494612038905 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494612096775 PlanetExplorer.java RENAME grid=>int x FIELD
+RefactoringAction 1494612103320 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1494612176777 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494612178805 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x/2 FIELD
+RefactoringAction 1494612218551 PlanetExplorer.java REMOVE grid FIELD
+RefactoringAction 1494612231093 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1494612238120 PlanetExplorer.java RENAME ob=>int METHOD
+RefactoringAction 1494612244222 PlanetExplorer.java RENAME getObstacles()=>int METHOD
+EditAction 1494612459675 PlanetExplorer.java 1766 3 10 0

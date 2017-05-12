@@ -156,4 +156,8 @@ public class PlanetExplorer {
 				explorer[0] = 0;
 		}
 	}
+	
+	public void createObstacles(){
+		int counter = coordinatesOfObstacles.length/2;
+	}
 }

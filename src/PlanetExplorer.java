@@ -4,10 +4,10 @@
 // Student ID:
 
 public class PlanetExplorer {
-	public int x;
-	public int y;
+	public int x=0;
+	public int y=0;
 	public String obstacles;
-	public int[] explorer = {0,0};
+	public int[] explorer = {x,y};
 	public char facing = 'N';
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -31,15 +31,17 @@ public class PlanetExplorer {
 		char[] commandArray = command.toCharArray();
 		for(int i = 0; i<commandArray.length; i++){
 			if(commandArray[i] == 'f'){
-				
+				if(facing == 'N'){
+					
+				}
 			}else if(commandArray[i] == 'b'){
 				
 			}
 			else if(commandArray[i] == 'l'){
-				
+				changeFacing('l');
 			}
 			else if(commandArray[i] == 'r'){
-	
+				changeFacing('r');
 			}
 		}
 		

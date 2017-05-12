@@ -60,3 +60,5 @@ RefactoringAction 1494613233483 PlanetExplorer.java RENAME changeFacing()=>char 
 RefactoringAction 1494613239023 PlanetExplorer.java RENAME changeFacing(String)=>char changeFacing() METHOD
 RefactoringAction 1494613255627 PlanetExplorer.java RENAME changeFacing()=>char changeFacing(char) METHOD
 EditAction 1494613384997 PlanetExplorer.java 2688 3 8 0
+CompilationAction 1494613388057 TestPlanetExplorer.java
+EditAction 1494613529583 PlanetExplorer.java 2761 3 8 0

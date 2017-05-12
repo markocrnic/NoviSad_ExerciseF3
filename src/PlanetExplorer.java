@@ -128,6 +128,22 @@ public class PlanetExplorer {
 		}else if(command=='f' && facing == 'W'){
 			if(explorer[0] == 100)
 				explorer[0] = 0;
+		}else if(command=='f' && facing == 'E'){
+			if(explorer[0] == 0)
+				explorer[0] = 100;
+		}else if(command=='b' && facing == 'N'){
+			if(explorer[1] == 0)
+				explorer[1] = 100;
+		}else if(command=='b' && facing == 'S'){
+			if(explorer[1] == 100)
+				explorer[1] = 0;
+		}else if(command=='b' && facing == 'W'){
+			if(explorer[0] == 0)
+				explorer[0] = 100;
+		}
+		else if(command=='b' && facing == 'E'){
+			if(explorer[0] == 100)
+				explorer[0] = 0;
 		}
 	}
 }

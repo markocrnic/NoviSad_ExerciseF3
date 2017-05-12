@@ -32,31 +32,39 @@ public class PlanetExplorer {
 		for(int i = 0; i<commandArray.length; i++){
 			if(commandArray[i] == 'f'){
 				if(facing == 'N'){
-					changeGridSide('f');
+					
 					explorer[1]++;
+					changeGridSide('f');
 				}else if(facing =='S'){
-					changeGridSide('f');
+					
 					explorer[1]--;
+					changeGridSide('f');
 				}else if(facing == 'W'){
-					changeGridSide('f');
+					
 					explorer[0]++;
-				}else if(facing == 'E'){
 					changeGridSide('f');
+				}else if(facing == 'E'){
+					
 					explorer[0]--;
+					changeGridSide('f');
 				}
 			}else if(commandArray[i] == 'b'){
 				if(facing == 'N'){
-					changeGridSide('b');
+					
 					explorer[1]--;
+					changeGridSide('b');
 				}else if(facing =='S'){
-					changeGridSide('b');
+					
 					explorer[1]++;
+					changeGridSide('b');
 				}else if(facing == 'W'){
-					changeGridSide('b');
+					
 					explorer[0]--;
-				}else if(facing == 'E'){
 					changeGridSide('b');
+				}else if(facing == 'E'){
+					
 					explorer[0]++;
+					changeGridSide('b');
 				}
 			}
 			else if(commandArray[i] == 'l'){

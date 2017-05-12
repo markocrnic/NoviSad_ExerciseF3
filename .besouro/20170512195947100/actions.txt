@@ -108,3 +108,13 @@ RefactoringAction 1494614650776 TestPlanetExplorer.java RENAME test_ChangingGrid
 RefactoringAction 1494614655325 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis=>void test_ChangingGridSideIfGrideYis100 FIELD
 RefactoringAction 1494614658379 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100=>void test_ChangingGridSideIfGrideYis100() METHOD
 EditAction 1494614763479 TestPlanetExplorer.java 1612 5 12 4
+CompilationAction 1494614766624 TestPlanetExplorer.java
+CompilationAction 1494614766634 TestPlanetExplorer.java
+CompilationAction 1494614766637 TestPlanetExplorer.java
+CompilationAction 1494614771846 TestPlanetExplorer.java
+CompilationAction 1494614771847 TestPlanetExplorer.java
+CompilationAction 1494614771848 TestPlanetExplorer.java
+CompilationAction 1494614772166 TestPlanetExplorer.java
+CompilationAction 1494614772167 TestPlanetExplorer.java
+CompilationAction 1494614772168 TestPlanetExplorer.java
+EditAction 1494614782949 TestPlanetExplorer.java 1634 5 16 5

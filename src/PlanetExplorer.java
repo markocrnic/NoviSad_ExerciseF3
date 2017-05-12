@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	public int x=0;
 	public int y=0;
 	public String obstacles;
-	public int[] explorer = {x,y};
+	public int[] explorer = {0,0};
 	public char facing = 'N';
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -32,10 +32,24 @@ public class PlanetExplorer {
 		for(int i = 0; i<commandArray.length; i++){
 			if(commandArray[i] == 'f'){
 				if(facing == 'N'){
-					
+					explorer[1]++;
+				}else if(facing =='S'){
+					explorer[1]--;
+				}else if(facing == 'W'){
+					explorer[0]++;
+				}else if(facing == 'E'){
+					explorer[0]--;
 				}
 			}else if(commandArray[i] == 'b'){
-				
+				if(facing == 'N'){
+					explorer[1]--;
+				}else if(facing =='S'){
+					explorer[1]++;
+				}else if(facing == 'W'){
+					explorer[0]--;
+				}else if(facing == 'E'){
+					explorer[0]++;
+				}
 			}
 			else if(commandArray[i] == 'l'){
 				changeFacing('l');

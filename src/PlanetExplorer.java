@@ -39,7 +39,7 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public int[] getObstacles(String obstacles){
+	public String getObstacles(String obstacles){
 		
 		String helpReplace = obstacles.replace("(","");
 		String helpReplace1 = helpReplace.replace(",","");
@@ -50,8 +50,5 @@ public class PlanetExplorer {
 			coordinatesOfObstacles[i] = Integer.parseInt(String.valueOf(replacer[i]));
 			
 		}
-		
-		
-		return coordinatesOfObstacles;
 	}
 }

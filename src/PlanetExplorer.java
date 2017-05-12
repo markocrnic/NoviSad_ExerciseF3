@@ -69,7 +69,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return explorer[0]+", "+explorer[1]+", "+ facing;
 	}
 	
 	/*public String getObstacles(String obstacles){

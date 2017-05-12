@@ -118,16 +118,16 @@ public class PlanetExplorer {
 	}
 	
 	public void changeGridSide(char command){
-		if((command == 'f' && facing == 'N') || (command == 'f' && facing =='S')){
+		if((command == 'f' && facing == 'N')){
 			if(explorer[1] == 100)
 				explorer[1] = 0;
-			else if(explorer[1] == 0)
+			
+		}else if((command == 'f' && facing == 'S')){
+			if(explorer[1] == 0)
 				explorer[1] = 100;
-		}else if((command == 'f' && facing == 'W') || (command == 'f' && facing =='E')){
+		}else if(command=='f' && facing == 'W'){
 			if(explorer[0] == 100)
 				explorer[0] = 0;
-			else if(explorer[0] == 0)
-				explorer[0] = 100;
 		}
 	}
 }

@@ -52,7 +52,7 @@ public class TestPlanetExplorer {
 	public void test_ChangingGridSideIfGrideYis100(){
 		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
 		String expected = "0, 0, N";
-		for(int i = 0; i<101; i++){
+		for(int i = 0; i<100; i++){
 			ex.executeCommand("f");
 		}
 		assertEquals(expected,ex.executeCommand("f") );

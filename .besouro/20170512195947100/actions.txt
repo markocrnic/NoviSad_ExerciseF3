@@ -23,3 +23,10 @@ RefactoringAction 1494612628810 TestPlanetExplorer.java REMOVE import PlanetExpl
 RefactoringAction 1494612633332 TestPlanetExplorer.java ADD import PlanetExplorer IMPORT
 RefactoringAction 1494612636355 TestPlanetExplorer.java REMOVE import PlanetExplorer IMPORT
 EditAction 1494612696265 TestPlanetExplorer.java 300 2 3 0
+CompilationAction 1494612699304 TestPlanetExplorer.java
+CompilationAction 1494612768901 TestPlanetExplorer.java
+CompilationAction 1494612769211 TestPlanetExplorer.java
+CompilationAction 1494612769212 TestPlanetExplorer.java
+CompilationAction 1494612792252 TestPlanetExplorer.java
+CompilationAction 1494612792254 TestPlanetExplorer.java
+EditAction 1494612800370 PlanetExplorer.java 1849 3 11 0

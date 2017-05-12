@@ -11,7 +11,9 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_gettingCoordinatesIntoArrayOfIntegers(){
-		PlanetExplorer ex;
-		ex.getObstacles("(2,3),(3,2)");
+		PlanetExplorer ex = null;
+		int[] coordinates = ex.getObstacles("(2,3),(3,2)");
+		int[] expected = {2,3,3,2};
+		assertEquals("Cannot get coordinates from obstacles!",expected, coordinates);
 	}
 }

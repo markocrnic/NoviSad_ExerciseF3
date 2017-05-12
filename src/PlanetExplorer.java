@@ -45,7 +45,7 @@ public class PlanetExplorer {
 		int[] coordinatesOfObstacles=new int[replacer.length];
 		for(int i=0;i<replacer.length;i++){
 			coordinatesOfObstacles[i] = Integer.parseInt(String.valueOf(replacer[i]));
-			System.out.println(coordinatesOfObstacles[i]);
+			
 		}
 		
 		

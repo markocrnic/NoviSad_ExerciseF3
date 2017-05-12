@@ -96,3 +96,4 @@ RefactoringAction 1494614145308 PlanetExplorer.java ADD void changeGridSide() ME
 RefactoringAction 1494614343755 PlanetExplorer.java RENAME changeGridSide()=>void changeGridSide(char) METHOD
 EditAction 1494614480519 PlanetExplorer.java 3376 4 9 0
 EditAction 1494614511380 PlanetExplorer.java 3558 4 9 0
+EditAction 1494614556617 PlanetExplorer.java 3630 4 9 0

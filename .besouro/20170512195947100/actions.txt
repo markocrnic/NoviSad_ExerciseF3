@@ -13,3 +13,13 @@ CompilationAction 1494612463047 PlanetExplorer.java
 CompilationAction 1494612473816 PlanetExplorer.java
 EditAction 1494612490920 PlanetExplorer.java 1836 3 10 0
 EditAction 1494612509240 PlanetExplorer.java 1790 3 10 0
+RefactoringAction 1494612529039 TestPlanetExplorer.java ADD void test_Getting FIELD
+RefactoringAction 1494612536056 TestPlanetExplorer.java RENAME test_Getting=>void test_gettingCoordinatesIntoArry FIELD
+RefactoringAction 1494612543580 TestPlanetExplorer.java RENAME test_gettingCoordinatesIntoArry=>void test_gettingCoordinatesIntoArrayOfIntegers() METHOD
+RefactoringAction 1494612586524 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1494612625770 TestPlanetExplorer.java ADD import PlanetExplorer.pla IMPORT
+RefactoringAction 1494612627292 TestPlanetExplorer.java RENAME import PlanetExplorer.pla=>import PlanetExplorer IMPORT
+RefactoringAction 1494612628810 TestPlanetExplorer.java REMOVE import PlanetExplorer IMPORT
+RefactoringAction 1494612633332 TestPlanetExplorer.java ADD import PlanetExplorer IMPORT
+RefactoringAction 1494612636355 TestPlanetExplorer.java REMOVE import PlanetExplorer IMPORT
+EditAction 1494612696265 TestPlanetExplorer.java 300 2 3 0

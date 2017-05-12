@@ -152,3 +152,4 @@ RefactoringAction 1494615312631 TestPlanetExplorer.java RENAME test_ChangingGrid
 RefactoringAction 1494615317672 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100()/3=>void test_ChangingGridSideIfGrideXis100() METHOD
 RefactoringAction 1494615321741 TestPlanetExplorer.java RENAME test_ChangingGridSideIfGrideYis100()/2=>void test_ChangingGridSideIfGrideXis0() METHOD
 EditAction 1494615354442 TestPlanetExplorer.java 2378 8 27 8
+EditAction 1494615473212 TestPlanetExplorer.java 2371 8 28 8

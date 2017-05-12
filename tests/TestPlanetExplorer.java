@@ -66,7 +66,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_ChangingGridSideIfGrideXis100(){
 		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
-		String expected = "0, 0, N";
+		String expected = "0, 0, W";
+		ex.executeCommand("r");
 		for(int i = 0; i<100; i++){
 			ex.executeCommand("f");
 		}
@@ -75,10 +76,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_ChangingGridSideIfGrideXis0(){
 		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
-		String expected = "0, 0, N";
-		for(int i = 0; i<100; i++){
-			ex.executeCommand("f");
-		}
+		String expected = "100, 0, E";
+		ex.executeCommand("l");
 		assertEquals(expected,ex.executeCommand("f") );
 	}
 	

@@ -169,3 +169,7 @@ EditAction 1494615704028 PlanetExplorer.java 4321 6 17 0
 RefactoringAction 1494616053051 PlanetExplorer.java ADD import java.awt.List IMPORT
 RefactoringAction 1494616242061 PlanetExplorer.java RENAME createObstacles()=>void checkForObstacles() METHOD
 EditAction 1494616313323 PlanetExplorer.java 4431 6 17 0
+RefactoringAction 1494616354945 PlanetExplorer.java RENAME checkForObstacles()=>void checkForObstacles(char) METHOD
+RefactoringAction 1494616443405 PlanetExplorer.java ADD boolean moving FIELD
+UnitTestCaseAction 1494616483211 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494616483213 TestPlanetExplorer.java OK

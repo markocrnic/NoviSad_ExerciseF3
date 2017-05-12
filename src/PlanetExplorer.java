@@ -11,6 +11,7 @@ public class PlanetExplorer {
 	public int[] explorer = {0,0};
 	public char facing = 'N';
 	int[] coordinatesOfObstacles;
+	public boolean moving = true;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		
@@ -157,9 +158,36 @@ public class PlanetExplorer {
 		}
 	}
 	
-	public void checkForObstacles(){
+	public void checkForObstacles(char command){
 		for(int i = 0; i<coordinatesOfObstacles.length;i=i+2){
 			 int[] checking = {coordinatesOfObstacles[i],coordinatesOfObstacles[i+1]};
+			 if((command == 'f' && facing == 'N')){
+					if(explorer[1]+1 == checking[0]||explorer[1]+1 == checking[1])
+						moving = false;
+					
+				}else if((command == 'f' && facing == 'S')){
+					if(explorer[1] == -1)
+						explorer[1] = 100;
+				}else if(command=='f' && facing == 'W'){
+					if(explorer[0] == 101)
+						explorer[0] = 0;
+				}else if(command=='f' && facing == 'E'){
+					if(explorer[0] == -1)
+						explorer[0] = 100;
+				}else if(command=='b' && facing == 'N'){
+					if(explorer[1] == -1)
+						explorer[1] = 100;
+				}else if(command=='b' && facing == 'S'){
+					if(explorer[1] == 101)
+						explorer[1] = 0;
+				}else if(command=='b' && facing == 'W'){
+					if(explorer[0] == -1)
+						explorer[0] = 100;
+				}
+				else if(command=='b' && facing == 'E'){
+					if(explorer[0] == 101)
+						explorer[0] = 0;
+				}
 		}
 	}
 }

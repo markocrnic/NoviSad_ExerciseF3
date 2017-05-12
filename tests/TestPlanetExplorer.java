@@ -51,7 +51,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_ChangingGridSideIfGrideYis100(){
 		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
-		String expected = "0,0,N";
+		String expected = "0, 0, N";
 		for(int i = 0; i<100; i++){
 			ex.executeCommand("f");
 		}

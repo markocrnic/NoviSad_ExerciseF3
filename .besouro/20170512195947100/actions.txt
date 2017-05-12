@@ -71,3 +71,19 @@ RefactoringAction 1494613779658 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1494613782179 TestPlanetExplorer.java RENAME test_initialM=>void test_initialMoveForward FIELD
 RefactoringAction 1494613783704 TestPlanetExplorer.java RENAME test_initialMoveForward=>void test_initialMoveForward() METHOD
 EditAction 1494613864965 TestPlanetExplorer.java 592 1 3 0
+UnitTestCaseAction 1494613903337 TestPlanetExplorer.java OK
+UnitTestSessionAction 1494613903338 TestPlanetExplorer.java OK
+RefactoringAction 1494613913182 TestPlanetExplorer.java ADD void test_initialMoveForward()/2 METHOD
+RefactoringAction 1494613913187 TestPlanetExplorer.java ADD void test_initialMoveForward()/3 METHOD
+RefactoringAction 1494613915222 TestPlanetExplorer.java REMOVE test_initialMoveForward()/2 METHOD
+RefactoringAction 1494613915231 TestPlanetExplorer.java REMOVE test_initialMoveForward()/3 METHOD
+RefactoringAction 1494613918761 TestPlanetExplorer.java ADD void test_initialMoveForward()/2 METHOD
+RefactoringAction 1494613920808 TestPlanetExplorer.java ADD void test_initialMoveForward()/3 METHOD
+RefactoringAction 1494613920810 TestPlanetExplorer.java ADD void test_initialMoveForward()/4 METHOD
+RefactoringAction 1494613927351 TestPlanetExplorer.java RENAME test_initialMoveForward()/4=>void test_initialMoveBackward() METHOD
+RefactoringAction 1494613945527 TestPlanetExplorer.java RENAME test_initialMoveForward()/3=>void test_initialMoveForwardFacing() METHOD
+RefactoringAction 1494613950061 TestPlanetExplorer.java RENAME test_initialMoveForwardFacing()=>void test_initialMoveForwardFacingWest() METHOD
+RefactoringAction 1494613960104 TestPlanetExplorer.java RENAME test_initialMoveForward()/2=>void test_initialMoveBackwardFacingEast() METHOD
+RefactoringAction 1494614010353 TestPlanetExplorer.java RENAME test_initialMoveBackward()=>void test_initialMoveBackwardFrom() METHOD
+RefactoringAction 1494614015400 TestPlanetExplorer.java RENAME test_initialMoveBackwardFrom()=>void test_initialMoveBackwardFromSomePoint() METHOD
+EditAction 1494614058709 TestPlanetExplorer.java 1369 4 12 4

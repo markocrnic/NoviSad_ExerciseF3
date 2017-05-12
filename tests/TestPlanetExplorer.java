@@ -19,8 +19,34 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_initialMoveForward(){
 		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
-		ex.executeCommand("f");
+		//ex.executeCommand("f");
 		String expected = "0, 1, N";
+		assertEquals(expected, ex.executeCommand("f"));
 		
 	}
+	@Test
+	public void test_initialMoveBackwardFromSomePoint(){
+		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
+		//ex.executeCommand("f");
+		String expected = "2, 3, E";
+		assertEquals(expected, ex.executeCommand("ffflbb"));
+		
+	}
+	@Test
+	public void test_initialMoveForwardFacingWest(){
+		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
+		//ex.executeCommand("f");
+		String expected = "1, 0, W";
+		assertEquals(expected, ex.executeCommand("rf"));
+		
+	}
+	@Test
+	public void test_initialMoveBackwardFacingEast(){
+		PlanetExplorer ex = new PlanetExplorer(100,100,"(2,3),(3,2)");
+		//ex.executeCommand("f");
+		String expected = "0, 1, E";
+		assertEquals(expected, ex.executeCommand("lb"));
+		
+	}
+	
 }

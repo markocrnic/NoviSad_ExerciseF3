@@ -16,6 +16,7 @@ public class PlanetExplorer {
 		this.x = x;
 		this.y = y;
 		this.obstacles = obstacles;
+		getObstacles(obstacles);
 		
 		
 	/*	x and y represent the size of the grid.
